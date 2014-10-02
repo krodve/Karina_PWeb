@@ -1,0 +1,35 @@
+/*EStilos de mi web*/
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Body*/
+body{
+background-color: LigthGray;
+font-family: Verdana, Arial; 
+font-size: 15px;
+}
+figure img {
+	vertical-align: middle;
+	height: auto;
+	width:30%;
+}
+/*Header*/
+header{
+
+}
+header figure {
+	display: inline-block;
+width: 35%;
+}
+article {
+	width: 60%;
+	display: inline-block;
+}
+header h1{
+font-size: 20px;
+}
+#headTitle{
+	display: inline-block;
+}

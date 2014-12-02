@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3em;
+}
+
+html{
+	
+	overflow: hidden;	
+}
+
+#map{
+	margin: 0 auto;
+}
+
+p{
+	font-family: 'Maven Pro', sans-serif;
+    color: white;
+    display: inline-block;
+    margin-left:25%;
+    margin-top: 5%;
+    position: absolute;
+    font-size: 1.3em;
+}
+
+
+#graphCanvas{
+	//background-color: #141414;
+	border-style: dashed;
+	border-color: white;
+	position: absolute;
+	bottom:10%;
+}
+
+
+#barra_menu{ 
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+#areaSensible{ 
+	position: absolute;
+	width: 400px;
+	height: 100%;
+	display:inline;
+}
+
+#bloque{ 
+	position: absolute;
+	padding: 30px 60px;
+	width: 350px;
+	height: 100%;
+	background: #242424;
+	
+	display:inline;
+} 
+
+.personajes{
+	margin-top: 30px;
+}
+
+.personajes li{	
+	margin-bottom: 45px;
+	list-style:none;
+}
+
